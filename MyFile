@@ -1,7 +1,6 @@
 pipeline
 {
 agent me
-{
 stages
 {
 stage('Build')
@@ -33,7 +32,6 @@ stage('Release')
 steps
 {
 echo "First"
-}
 }
 }
 }
