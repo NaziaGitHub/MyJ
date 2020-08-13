@@ -8,6 +8,7 @@ stage('Build')
 {
 steps
 {
+echo "First"
 }
 }
 
@@ -15,6 +16,7 @@ stage('Deploy')
 {
 steps
 {
+echo "First"
 }
 }
 
@@ -22,6 +24,7 @@ stage('Test')
 {
 steps
 {
+echo "First"
 }
 }
 
@@ -29,6 +32,7 @@ stage('Release')
 {
 steps
 {
+echo "First"
 }
 }
 }
